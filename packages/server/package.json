@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for nodejs graphql project",
+  "main": "dist/server.js",
+  "repository": "https://github.com/a-GumaryaN/graphql.git/packages/server",
+  "author": "GumaryaN",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.1"
+  }
+}
