@@ -6,9 +6,6 @@ export async function FindOne(model, query: object): Promise<any> {
     return await model.findOne(query);
 }
 
-export async function FindOn(model, query: object, result) {
-    return await model.findOne(query);
-}
 
 export async function Save(model): Promise<any> {
     return await model.save();

@@ -4,6 +4,7 @@ export const schema = buildSchema(`
 
 type Query{
     login(username:String! , password:String! ):String!
+    pass:String!
 }
 
 

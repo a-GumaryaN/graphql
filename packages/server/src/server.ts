@@ -1,17 +1,17 @@
-const dbUrl:string='http://127.0.0.1:27017/graphql';
+const dbUrl: string ='mongodb://127.0.0.1:27017/graphql';
 
 import * as express from "express";
 import { Schema } from "mongoose";
 const app = express();
 
-/*
+
 import * as mongoose from "mongoose";
 
 mongoose.connect(dbUrl , ()=>{
     console.log(`connected to the database successfully...`)
 });
 
-*/
+
 
 import { root } from "./modules/resolvers"
 
